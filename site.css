@@ -1,0 +1,11 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; cursor: url("/cursor.gif"),auto; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; cursor: url("/cursor.gif"),auto; }
+}
+body { width: 100%; height: 100%; background-image: linear-gradient(to right, var(--tw-gradient-stops)); --tw-gradient-from: #2563eb; --tw-gradient-stops: var(--tw-gradient-from), #4338ca, var(--tw-gradient-to, rgb(67 56 202 / 0)); --tw-gradient-to: #581c87;}
+p { background: #fff; font-weight: bold; border-radius: 5px; border: none; padding: 0.25rem; display: inline-block; line-height: 15px; }
+.confetti { position: absolute; top: 50px; right: 40px; z-index: 2; }
+.firework { position: absolute; right: 40px; top: 150px; z-index: 2; }
+.snowflake { position: absolute; right: 40px; top: 250px; z-index: 2; }
+
